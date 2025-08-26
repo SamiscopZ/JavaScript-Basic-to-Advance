@@ -44,7 +44,7 @@ function mobile(samsung) {
 }
 mobile('Sumsung is the leading mobile comp.\n');
 
-//Callback function (function as a parameter)
+// Function as a parameter (Callback function)
 function summ(a, b) {
   return a + b;
 }
@@ -62,7 +62,7 @@ console.log(total);
 // Anonymous Functions
 (function () {
   console.log('Anonymous function');
-})(); //! Immediately invoked function execution, not recommended to use much.
+})(); //! Immediately Invoked Function Execution (IIFE), not recommended to use much.
 
 // Function expression
 let storingFunc = function (a, b) {

@@ -48,3 +48,5 @@ const person = {
 person.firstName = 'Samiul';
 person.height = '5" 6';
 delete person.age;
+
+//* Array and Function are too under object.

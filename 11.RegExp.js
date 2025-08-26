@@ -1,5 +1,6 @@
 //* Search & Match
-let text = "Please, let me know. But if you don't know me, you will suffer.";
+let text =
+  "Please, let me know. But if you don't know me, you will have to face problem.";
 
 // console.log(text.search('me'));
 console.log(text.search(/me/i)); //To find from all the cases (UpperCase or LowerCase)

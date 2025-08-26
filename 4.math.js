@@ -11,8 +11,8 @@ let floorMath = Math.floor(1.8);
 console.log(floorMath); //Returns the lower integer. Ex: (1.8 = 1) and (1.1 = 1)
 
 // Math.trunc
-let truncMath = Math.trunc(-1.9);
-console.log(truncMath); //Returns the lower integer (as Math.floor). Ex: (1.1 = 1) or (-1.1 = 1)
+let truncMath = Math.trunc(1.9);
+console.log(truncMath); //It removes everything after decimal and return integer either positive or negetive number. Ex: (1.1 = 1) or (-1.1 = 1)
 
 // Math.sign
 let signMath = Math.sign(21);

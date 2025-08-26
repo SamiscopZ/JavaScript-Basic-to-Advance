@@ -2,7 +2,7 @@
 
 let info = ['Abrar', 'Asif', 'Asin', 'Abdullah', 'Anware'];
 
-info.forEach(companyInfo);
+info.forEach(companyInfo); //forEach uesed in array. It deosn't create new array, it changaes main array.
 
 function companyInfo(value, index, itSelf) {
   console.log(value, index);
@@ -11,9 +11,9 @@ function companyInfo(value, index, itSelf) {
 //array map
 let knownPeople = ['Asin', 'Huma', 'Bipasha'];
 
-knownPeople.forEach(function (value) {
+knownPeople.map(function (value) {
   console.log(value);
-});
+}); //It works same as forEach, but it creates new array.
 
 //flat map
 let newArr = [98, 33, 543, 2, 22];

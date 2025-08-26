@@ -4,7 +4,7 @@
 
 const myList = ['apple', 'orange', 'mango', 'banana', 'jackfruit'];
 
-myList[3] = 'Pinaple'; //to add new elements at 3
+myList[3] = 'Pinaple'; //to add new element at 3
 console.log(myList);
 
 //To add new an element of an array at the end
@@ -44,7 +44,7 @@ console.log(Array.isArray(apps));
  ?Array to string convert
  */
 const fruits = ['Banana', 'Mango', 'Apple'];
-console.log(fruits.toString('')); //Converts the entire array into a comma-separated string.
+console.log(fruits.toString()); //Converts the entire array into a comma-separated string.
 
 console.log(fruits.at(2)); //Convert arry to string, need an element index no .at(1)
 
@@ -69,11 +69,11 @@ const arr = [
 console.log(arr.flat()); //Flat
 
 const arr1 = [1, 2, 3, 4];
-arr1.splice(0, 1); //To remove element from an array
+arr1.splice(0, 1); //To remove element from an array, it changes the main array and return it.
 
 console.log(arr1);
 
 const arr2 = [5, 6, 7, 8, 9];
-const arr22 = arr2.toSpliced(1, 2);
+const arr22 = arr2.toSpliced(1, 2); //To remove element from an array, it creates a new array and return it.
 
 console.log(arr22, arr2);

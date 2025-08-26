@@ -29,6 +29,8 @@ if (country == 'UK') {
   } else {
     console.log(`You can't have driving licence`);
   }
+} else {
+  console.log("Your aren't form UK");
 }
 
 //* Ternary operator
