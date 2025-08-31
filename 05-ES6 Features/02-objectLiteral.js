@@ -21,7 +21,7 @@ console.log(info);
 let fname = 'Shohag';
 
 let information = {
-  [fname]: 'This is his nickname',
+  [fname]: 'This is his nickname', //use variable as property name.
   reset() {
     console.log('Mi-Xiomi');
   },

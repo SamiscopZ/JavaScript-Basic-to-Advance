@@ -28,7 +28,7 @@ console.log(squreMath); //Returns the square root of a number. Ex: (81 = 9)
 
 // Math.abs
 let absMath = Math.abs(-52);
-console.log(absMath); //Returns the positive value of a nagative number. Ex: (-90 = 90)
+console.log(absMath); //Convert the nagetive value into positive value. Ex: (-90 = 90)
 
 // Min and Max
 let findMin = Math.min(45, 4, 2, 354, 2, 34, 343, 54, 34, 53);

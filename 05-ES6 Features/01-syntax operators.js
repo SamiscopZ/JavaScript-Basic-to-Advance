@@ -1,6 +1,6 @@
 //* Rest parameter
 function number(a, b, c, d, ...arg) {
-  console.log(a, b, c, d, arg); //arg cretaes separate an array.
+  console.log(a, b, c, d, arg); //arg cretaes a separate array.
   console.log(a, b, c, d, ...arg); //..arg makes them individual elements.
 }
 
