@@ -20,10 +20,11 @@ console.log(info);
 
 let fname = 'Shohag';
 
+//Computed property: using variable as property
 let information = {
   [fname]: 'This is his nickname', //use variable as property name.
   reset() {
-    console.log('Mi-Xiomi');
+    console.log('Mi-Xiaomi');
   },
 };
 
