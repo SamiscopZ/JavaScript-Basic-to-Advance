@@ -1,3 +1,5 @@
+//class
+
 class Car {
   constructor(model, year) {
     this.model = model;
@@ -23,3 +25,58 @@ const user1 = new Person('David', 32);
 const user2 = new Person('Smith', 45);
 
 console.log(user1, user2);
+
+// class expression
+let person = class {
+  constructor(name, email, phone) {
+    this.name = name;
+    this.email = email;
+    this.phone = phone;
+  }
+};
+
+const info = new person('John', 'mrjohn@gmail.com', +11023100000);
+
+console.log(info);
+
+//first class citizen
+
+function factor(beClass) {
+  return new beClass();
+}
+
+let aFunc = factor(
+  class {
+    sayHi() {
+      console.log('Hello bro');
+    }
+  }
+);
+
+aFunc.sayHi();
+
+// class inheritance
+class Pc {
+  constructor(Brand) {
+    this.Brand = Brand;
+  }
+
+  now() {
+    return this.Brand + ' is my main machine,';
+  }
+}
+
+class PcModel extends Pc {
+  constructor(Brand, Model) {
+    super(Brand);
+    this.Model = Model;
+  }
+
+  see() {
+    return this.now() + ' And model is ' + this.Model;
+  }
+}
+
+let configuration = new PcModel('Acer', 'Aspire 1');
+
+console.log(configuration.now());
