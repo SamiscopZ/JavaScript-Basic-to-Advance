@@ -1,8 +1,8 @@
 //Object literal extension
 function sayHi(username, userInfo) {
   return {
-    username,
-    userInfo,
+    username, // username: username
+    userInfo, // userinfo: userinfo
   };
 }
 

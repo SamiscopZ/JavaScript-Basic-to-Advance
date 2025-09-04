@@ -8,7 +8,7 @@ console.log(text.match(/me/gi)); //To match same word though it is Upper or Lowe
 
 //* replace
 let carDetails =
-  'BMW is one of the most expensive car in the world. If you want to afford a BMW you will have to be billioniare.';
+  'BMW is one of the most expensive car in the world. If you want to afford a BMW you will have to be billionaire.';
 
 console.log(carDetails);
 console.log(carDetails.replace('BMW', 'Tesla')); //To replace a word.

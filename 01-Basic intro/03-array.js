@@ -8,7 +8,7 @@ myList[3] = 'Pinaple'; //to add new element at 3
 console.log(myList);
 
 //To add new an element of an array at the end
-const mobileCom = ['Samusng', 'Vivo', 'Oneplus', 'Lenevo'];
+const mobileCom = ['Samsung', 'Vivo', 'Oneplus', 'Lenovo'];
 mobileCom.push('iPnone');
 
 console.log(mobileCom);
@@ -31,7 +31,7 @@ boardCom.unshift('Nvdia');
 
 console.log(boardCom);
 
-//To find an index of an elemet of an array
+//To find an index of an element of an array
 const bestBatsman = ['Babar', 'Williamson', 'Root', 'Smith'];
 
 console.log(bestBatsman.indexOf('Williamson'));
@@ -46,14 +46,14 @@ console.log(Array.isArray(apps));
 const fruits = ['Banana', 'Mango', 'Apple'];
 console.log(fruits.toString()); //Converts the entire array into a comma-separated string.
 
-console.log(fruits.at(2)); //Convert arry to string, need an element index no .at(1)
+console.log(fruits.at(2)); //Convert array to string, need an element index no .at(1)
 
-console.log(fruits.join('!')); //Convert arry to string and add something that will show after every element
+console.log(fruits.join('!')); //Convert array to string and add something that will show after every element
 
 const juice = ['Lemon', 'Mango', 'Orange'];
 delete juice[1]; //! This method is not recommended to use.
 
-console.log(juice); //using delete will delete an element but it will reamin as a undefined
+console.log(juice); //using delete will delete an element but it will remain as a undefined
 
 const cricketerList = ['Smith', 'Root', 'Williamson', 'Stokes'];
 const footballerList = ['L. Messi', 'Di Maria', 'N. Kante'];

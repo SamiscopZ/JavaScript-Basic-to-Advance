@@ -1,8 +1,10 @@
+///Iterable means you through a loop in Object, Array, String, Map etc.
+
 //forEach
 
-let info = ['Abrar', 'Asif', 'Asin', 'Abdullah', 'Anware'];
+let info = ['Abram', 'Asin', 'Asin', 'Abdullah', 'Anware'];
 
-info.forEach(companyInfo); //forEach uesed in array. It deosn't create new array, it changaes main array.
+info.forEach(companyInfo); //forEach used in array. It doesn't create new array, it changes main array.
 
 function companyInfo(value, index, itSelf) {
   console.log(value, index);
