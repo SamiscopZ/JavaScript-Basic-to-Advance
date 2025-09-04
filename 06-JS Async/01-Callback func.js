@@ -40,13 +40,3 @@ function person(name, age, back) {
 person('Steve', 23, info);
 
 //? Tough this way you may never use in real life project. This example used here to get know about syntax of callback function.
-
-// asynchronous behavior
-
-console.log('1at code');
-
-setTimeout(() => {
-  console.log('2nd code');
-}, 2000);
-
-console.log('3rd code');
