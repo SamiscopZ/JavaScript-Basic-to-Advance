@@ -22,7 +22,7 @@ function price(shoe, sandal) {
 
 //? JS Functions are First Class Citizens
 
-//* Storing functions in variabls
+//* Storing functions in variables
 
 function getResult(a, b) {
   return a + b;
@@ -32,7 +32,7 @@ let sum = getResult;
 console.log(sum(54, 33));
 console.log(getResult(60, 33)); // Both way you can call function.
 
-//* Multilpy nested function
+//* Multiply nested function
 function mobile(samsung) {
   function laptop(mac) {
     function pc(ryzen) {
@@ -40,9 +40,9 @@ function mobile(samsung) {
     }
     pc('Ryzen is most used in Pc.\n');
   }
-  laptop('Mac is the most powerfull laptop.\n');
+  laptop('Mac is the most powerful laptop.\n');
 }
-mobile('Sumsung is the leading mobile comp.\n');
+mobile('Samsung is the leading mobile comp.\n');
 
 // Function as a parameter (Callback function)
 function summ(a, b) {
