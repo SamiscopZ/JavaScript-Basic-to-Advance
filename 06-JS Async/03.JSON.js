@@ -55,3 +55,15 @@ const captain = {
 
 const skipper = JSON.stringify(captain);
 console.log(skipper);
+
+//fetching API
+
+let information = fetch('https://jsonplaceholder.typicode.com/users');
+
+information
+  .then(res => {
+    return res.json();
+  })
+  .then(read => {
+    console.log(read[2].username);
+  });

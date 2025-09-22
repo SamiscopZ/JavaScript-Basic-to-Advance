@@ -22,9 +22,9 @@ const samsung = {
 
 //this keyword
 let info = {
-  firstName: 'Samiul',
-  lastName: 'Islam',
-  fullName: function () {
+  firstName: 'David',
+  lastName: 'Miller',
+  fullName: () => {
     return this.firstName + ' ' + this.lastName;
   },
 };

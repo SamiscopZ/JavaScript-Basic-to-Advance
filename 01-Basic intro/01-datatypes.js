@@ -14,7 +14,7 @@ let firstName = 'Mohammad';
 
 // Number
 let length = 15; //integer
-let weight = 90.5; //flot
+let weight = 90.5; //float
 
 // Booleans
 let x = true;
@@ -39,12 +39,11 @@ console.log(typeof dec, dec);
 
 //Object
 const person = {
-  firstName: 'Sami',
-  lastName: 'Islam',
+  firstName: 'Memphis',
+  lastName: 'Depay',
   age: 20,
-  phone: '016xxxxxxx0',
-  address: 'Jatrabari, Dhaka, Bangladesh',
+  phone: '6xxxxxxx0',
+  address: 'Amsterdam, Netherlands',
 };
-person.firstName = 'Samiul';
 person.height = '5" 6';
 delete person.age;
