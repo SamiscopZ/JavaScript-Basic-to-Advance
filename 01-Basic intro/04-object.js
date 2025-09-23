@@ -10,7 +10,7 @@ console.log(person);
 
 const samsung = {
   model: 'Samsung A22 5G',
-  display: 'Oled',
+  displayRes: '4k',
   battery: '5000mh',
   rom: '64gb',
   ram: '4gb + (4gb virtual)',
@@ -29,3 +29,22 @@ let info = {
   },
 };
 console.log(info.fullName());
+
+//? Checking what are the keys in an object
+let employer = {
+  name: 'Steve',
+  age: 23,
+  isMarried: false,
+};
+console.log(Object.keys(employer));
+// Output: ['name', 'age', 'isMarried']
+
+//? Checking what are the values in an object
+let player = {
+  name: 'L. Martinez',
+  team: 'Argentina',
+  goals: 33,
+};
+
+console.log(Object.values(player));
+// Output:['L. Martinez', 'Argentina', 91]

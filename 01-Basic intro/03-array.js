@@ -6,7 +6,7 @@ myList[3] = 'Pineapple'; //to add new element at 3
 console.log(myList);
 // Output: [('apple', 'orange', 'mango', 'Pineapple', 'jackfruit')];
 
-//? To add new an element of an array at the end
+//? To add8 new an element of an array at the end
 const mobileComp = ['Samsung', 'Vivo', 'OnePlus'];
 mobileComp.push('Apple');
 
@@ -65,7 +65,7 @@ console.log(juice); //using delete will delete an element but it will remain as 
 // Output:['Lemon', empty, 'Orange'];
 
 const cricketerList = ['Smith', 'Root', 'Williamson', 'Stokes'];
-const footballerList = ['L. Messi', 'Di Maria', 'N. Kante'];
+const footballerList = ['L. Martinez', 'Di Maria', 'T. Almada'];
 
 console.log(cricketerList.concat(footballerList)); //Add multiple array in one array
 

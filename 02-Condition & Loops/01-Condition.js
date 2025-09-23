@@ -19,15 +19,15 @@ if (a > b) {
 } else {
   console.log('Both are equal');
 }
-//Nesed if
+//Nested if
 let yourAge = 11;
 let country = 'UK';
 
 if (country == 'UK') {
   if (yourAge >= 18) {
-    console.log('You can have driving licence');
+    console.log('You can have driving license');
   } else {
-    console.log(`You can't have driving licence`);
+    console.log(`You can't have driving license`);
   }
 } else {
   console.log("Your aren't form UK");
