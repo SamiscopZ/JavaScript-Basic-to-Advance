@@ -45,11 +45,11 @@ function mobile(samsung) {
 mobile('Samsung is the leading mobile comp.\n');
 
 // Function as a parameter (Callback function)
-function summ(a, b) {
+function summation(a, b) {
   return a + b;
 }
 
-let equal = summ;
+let equal = summation;
 
 function counter(x, y, z) {
   return z(x, y) * 4;
@@ -69,7 +69,7 @@ let storingFunc = function (a, b) {
   return a + b;
 };
 
-console.log(storingFunc(43, 4)); //? In modern JS, mostly use Function expression isted of IIFE.
+console.log(storingFunc(43, 4)); //? In modern JS, mostly use Function expression instead of IIFE.
 
 //* Pass by value of primitive values
 
@@ -89,10 +89,10 @@ let person = {
   age: 33,
 };
 
-function valueup(introduce) {
+function valueUp(introduce) {
   introduce.age++;
 }
-valueup(person);
+valueUp(person);
 
 console.log(person);
 
