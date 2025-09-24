@@ -1,23 +1,21 @@
-///Iterable means you through a loop in Object, Array, String, Map etc.
+//? Iterable means you through a loop in Object, Array, String, Map etc.
 
-//forEach
+//* forEach
 
-let info = ['Abram', 'Asin', 'Asin', 'Abdullah', 'Anware'];
+let info = ['Abram', 'Asin', 'Asin', 'Abdullah'];
 
-info.forEach(companyInfo); //forEach used in array. It doesn't create new array, it changes main array.
+info.forEach((value, index, itself) => {
+  console.log(value, index, itself);
+}); // forEach used in array. It doesn't create new array, it changes main array.
 
-function companyInfo(value, index, itSelf) {
-  console.log(value, index);
-}
-
-//array map
+//* array map
 let knownPeople = ['Asin', 'Huma', 'Bipasha'];
 
 knownPeople.map(function (value) {
   console.log(value);
-}); //It works same as forEach, but it creates new array.
+}); // It works same as forEach, but it creates new array.
 
-//flat map
+//* flat map
 let newArr = [98, 33, 543, 2, 22];
 
 newArr.flatMap(function (ar) {
@@ -26,7 +24,7 @@ newArr.flatMap(function (ar) {
 
 console.log(newArr);
 
-//Array filter
+//* Array filter
 let news = [1, 23, 4, 5, 6, 8, 33, 55, 43, 3, 45];
 
 let newNews = news.filter(function (value) {
