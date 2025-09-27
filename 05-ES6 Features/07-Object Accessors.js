@@ -2,7 +2,7 @@
 
 //? For example: You want to take a full name using fistName and lastName properties so that it can be used later.
 
-//* To do that... First, make an object. Add some properties and values.  write "get" keyword. Then give a name and parentheses "()". Now, add a curly braces "{}". At last, getting firstName and lastName properties using this keyword.
+//* To do that... First, make an object. Add some properties and values. Inside the object write "get" keyword. Then give a name and parentheses "()". Now, add a curly braces "{}". At last, getting firstName and lastName properties using this keyword.
 
 const person = {
   firstName: 'John',

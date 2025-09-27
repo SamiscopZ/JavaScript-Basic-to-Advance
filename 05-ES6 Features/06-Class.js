@@ -1,4 +1,4 @@
-//class
+// class is a template or blue-print. It can use to pass various type of value in easy way.
 
 class Car {
   constructor(model, year) {

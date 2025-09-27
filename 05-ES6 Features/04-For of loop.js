@@ -1,5 +1,7 @@
 //* for of loop
 
+const { use } = require('react');
+
 //array iterating
 let score = [34, 54, 31, 64, 87];
 
@@ -9,15 +11,15 @@ for (let store of score) {
 
 //Object destructuring
 let ratings = [
-  { userName: 'Shohag', userInfo: 'Nothing much...' },
-  { userName: 'Sami', userInfo: 'Nothing much...' },
+  { userName: 'Nicolas', userInfo: 'Nothing much...' },
+  { userName: 'E. Fernandez', userInfo: 'Nothing much...' },
 ];
 
 for (let user of ratings) {
-  console.log(user.userName);
+  console.log(user.userName, user.userInfo);
 }
 
-//string iteration
+// string iteration
 let info = 'No entry';
 let su = 0;
 

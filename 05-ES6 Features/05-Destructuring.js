@@ -27,14 +27,14 @@ const person = {
 let { firstName, lastName } = person;
 console.log(firstName, lastName);
 
-//Array destructing
+// Array destructing
 const numbers = [43, 2, 21, [444, 432, 900], 34, 98];
 
 const [, , , [, a, b], , c] = numbers;
 
 console.log(a, b, c);
 
-//Swapping values
+// Swapping values
 let x = 32;
 let y = 43;
 

@@ -6,7 +6,8 @@ function sayHi(username, userInfo) {
   };
 }
 
-console.log(sayHi('Samiul', 'Founder of SIM Group'));
+console.log(sayHi('Jackson', 'Founder of SIM Group'));
+// Output: {username: 'Jackson', userInfo: 'Founder of SIM Group'}
 
 let message = 'Hi, I am waiting for you';
 let user = 'Ahmed';
@@ -18,9 +19,9 @@ let info = {
 
 console.log(info);
 
-let fname = 'Shohag';
+// Computed property: using variable as property
 
-//Computed property: using variable as property
+let fname = 'Fernandez';
 let information = {
   [fname]: 'This is his nickname', //use variable as property name.
   reset() {
